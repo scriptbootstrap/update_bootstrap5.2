@@ -1,0 +1,43 @@
+#menghilangkan_ekstensi_php
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+#error_document
+ErrorDocument 400 https://sikudabaja.com/error/400
+ErrorDocument 403 https://sikudabaja.com/error/403
+ErrorDocument 404 https://sikudabaja.com/error/404
+ErrorDocument 500 https://sikudabaja.com/error/500
+
+<Files ~"^.*\.([Hh][Tt][Aa])">
+    order allow,deny
+    deny from all
+    satisfy all
+</Files>
+
+#disable_ekstensi_folder
+IndexIgnore *.tar.gz *.txt *.php *.html *.css *.js *.py *css *js *.jpg *.png *.jpeg *.JPG *.PNG *.JPEG *.pdf *.exe *.apk *fontawesome-free *admin
+
+#disable_directori_listing
+Options -Indexes
+
+#caching_(kecepatan)
+<FilesMatch "\.(jpg|jpeg|png|doc|gif|swf)$"> 
+Header set Cache-Control "max-age=29030400, public" 
+</FilesMatch> 
+
+#Enable gzip compression
+<ifModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+mod_gzip_item_include handler ^cgi-script$
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_include mime ^application/x-javascript.*
+mod_gzip_item_exclude mime ^image/.*
+mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>
+

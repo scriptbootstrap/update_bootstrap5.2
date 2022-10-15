@@ -1,0 +1,550 @@
+/* LOGIN */
+.bg-img {
+  background: repeating-radial-gradient(#f675a97e, #fff);
+  background-attachment: fixed;
+}
+
+/* Font Famili */
+.ff-poppins {
+  font-family: poppins !important;
+}
+
+.ff-poppins-13 {
+  font-size: 13px !important;
+  font-family: poppins !important;
+}
+
+.ff-poppins-14 {
+  font-size: 14px !important;
+  font-family: poppins !important;
+}
+
+.ff-poppins-15 {
+  font-size: 15px !important;
+  font-family: poppins !important;
+}
+
+.ff-poppins-16 {
+  font-size: 16px !important;
+  font-family: poppins !important;
+}
+
+.ff-poppins-17 {
+  font-size: 17px !important;
+  font-family: poppins !important;
+}
+
+.ff-poppins-18 {
+  font-size: 18px !important;
+  font-family: poppins !important;
+}
+
+.ff-poppins-19 {
+  font-size: 19px !important;
+  font-family: poppins !important;
+}
+
+.ff-poppins-20 {
+  font-size: 20px !important;
+  font-family: poppins !important;
+}
+
+.my-form span {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding-left: 0;
+  border-bottom: 1px solid #aaa;
+}
+
+.my-form input {
+  padding: 20px;
+  background-color: transparent;
+  padding-bottom: 25px;
+  border: none;
+  padding-left: 0;
+  border-radius: 0px;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 10px;
+}
+
+.my-form input:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #F675A8;
+}
+
+.my-form button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 40px !important;
+}
+
+.my-form i {
+  color: #aaa;
+  font-size: 22px;
+}
+
+.alert-error-login {
+  border-radius: 40px !important;
+}
+
+.alert-info-login {
+  border: 1px solid #F675A8 !important;
+  border-radius: 40px !important;
+  margin-top: 5px;
+  font-size: 14px;
+  background-color: #f675a913;
+}
+
+.alert-info-login i {
+  color: #F675A8;
+  font-size: 18px;
+}
+
+.my-form label {
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+
+/* CARD ACTIVITY */
+.card-activity-feedback {
+  height: 170px !important;
+  overflow-x: auto;
+}
+
+.card-all-account {
+  height: 220px !important;
+  overflow-x: auto;
+}
+
+.btn-plus-round {
+  margin-right: 10px;
+}
+
+/* SCROLL BAR */
+.card-all-account::-webkit-scrollbar,
+.card-activity-feedback::-webkit-scrollbar {
+  background-color: #eee;
+  border-radius: 5px;
+  width: 8px;
+}
+
+.card-all-account::-webkit-scrollbar-thumb,
+.card-activity-feedback::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  width: 8px;
+  border-radius: 5px;
+}
+
+/* ACCOUNT SETTINGS */
+.card-account li {
+  background-color: #eee;
+  text-align: center;
+}
+
+/* img profile */
+.card-profile {
+  padding-bottom: 10px;
+  padding: 0px !important;
+}
+
+
+
+.img-profile img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  margin-top: -10px;
+  border-radius: 50%;
+}
+
+.id-profile {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 30px !important;
+}
+
+
+.level-profile {
+  margin-top: -5px;
+  text-align: center;
+}
+
+.upload-img-profile table {
+  width: 250px;
+  margin: auto;
+}
+
+.upload-img-profile form {
+  padding: 20px 30px 20px 30px;
+}
+
+.upload-img-profile table input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.upload-img-profile table button {
+  background-color: #F675A8;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.upload-img-profile table button:hover {
+  background-color: #b94876;
+}
+
+.upload-img-profile h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.upload-img {
+  color: #444;
+  border-radius: 50px 0px 0px 50px;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+
+.display-image {
+  text-align: center;
+  width: 100px;
+  margin: auto;
+}
+
+#display-image {
+  width: 100px;
+  border: 1px solid #ddd;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+
+#display-image:hover {
+  background-color: #eee;
+}
+
+.display-image i {
+  font-size: 15px;
+  margin-left: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px;
+  background-color: #F675A8;
+  margin-top: -50px;
+  position: absolute;
+}
+
+.display-image i:hover {
+  background-color: #b94876;
+}
+
+/* CARD RIGHT */
+.data-profile span {
+  border: none;
+  padding-left: 0px;
+}
+
+.data-account input {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.data-account button {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.form-group-feedback {
+  text-align: center;
+}
+
+/* STYLE IMG SIZE*/
+.form-img img,
+.table-photo img,
+.modal-delete img {
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #177cff1f;
+  height: 50px;
+}
+
+.btn-cancel {
+  border-radius: 10px;
+  color: #333;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.btn-cancel:hover {
+  text-decoration: none;
+  color: #333;
+  background-color: #ccc;
+}
+
+
+/* filer agenda */
+.filter-agenda input {
+  display: block;
+  padding: 8px;
+  font-size: 16px;
+  margin-right: -10px;
+  border-radius: 50px;
+  background-color: #eee !important;
+  cursor: pointer;
+  margin-left: -20px;
+  margin-right: 20px !important;
+}
+
+/* NOTIFICATION */
+.container-notification {
+  margin-bottom: 20px;
+}
+
+.icon-notification {
+  float: left;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.description-notification {
+  margin-left: 50px;
+}
+
+.description-notification span {
+  margin-top: -15px;
+  font-size: 12px;
+  display: block;
+  color: #888;
+}
+
+.description-notification a {
+  background-color: #177cff2f;
+  border: 1px solid #F675A8;
+  font-size: 12px;
+  margin-top: 10px;
+  display: inline-block;
+  color: #F675A8;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.description-notification a:hover {
+  background-color: #177cff5b;
+  text-decoration: none;
+}
+
+/* Options Widget */
+.options-widget {
+  overflow-x: auto;
+  height: 350px;
+}
+
+/* FORM ADD TAHAPAN*/
+.form-add {
+  padding-bottom: 0px !important;
+}
+
+.form-add i {
+  color: #A460ED;
+  font-size: 20px !important;
+}
+
+/* BTN OPSI */
+.btn-opsi {
+  margin-bottom: 5px;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+/* BTN FORM TAHAPAN*/
+.btn-form {
+  width: 100% !important;
+}
+
+/* BOTTOM MENU */
+.bottom-menu {
+  display: none;
+}
+
+/* Form nomor surat */
+.form-nomor-surat {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.form-nomor-surat label {
+  margin-top: -20px !important;
+}
+
+/* Modal Pengadaan */
+
+
+/* Info Account */
+#btn-bg-close {
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+.box-info-account {
+  position: fixed;
+  width: 300px;
+  right: 0;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  width: 70%;
+  z-index: 9999;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.box-info-account a {
+  border-radius: 5px;
+  background-color: #A460ED;
+  color: white;
+  padding: 5px;
+}
+
+.box-info-account a:hover {
+  background-color: #773fb3;
+  text-decoration: none;
+}
+
+.box-info-account p {
+  font-size: 18px;
+}
+
+
+/* SEARCH */
+/* card search */
+.card-search {
+  margin-bottom: -15px;
+}
+
+/* url search */
+.url-search a {
+  color: black;
+}
+
+.url-search a:hover {
+  text-decoration: none;
+}
+
+/* title search */
+.title-search a {
+  color: #A460ED;
+}
+
+.title-search a:hover {
+  color: #A460ED;
+  text-decoration: underline;
+}
+
+/* description search */
+.description-search {
+  margin-top: 0px;
+}
+
+.description-search span {
+  color: #555;
+}
+
+/* empty search */
+.icon-empty-search {
+  float: left;
+}
+
+.icon-empty-search i {
+  font-size: 20px;
+  color: #F675A8;
+  text-align: center;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  background-color: #f675a92d;
+}
+
+/* tips search */
+.tips-search p {
+  color: #555;
+}
+
+/* saran-search */
+.saran-search a {
+  color: #333;
+  padding-left: 5px;
+}
+
+.description-empty-search {
+  width: 80%;
+  margin-left: 70px;
+}
+
+/* Tab Panel */
+.box-tab-panel table {
+  width: 100%;
+}
+
+.box-tab-panel input {
+  width: 100%;
+  border: 1px solid #eee;
+}
+
+.delete-btn {
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #F675A8;
+  padding: 5px;
+  color: white;
+}
+
+.delete-btn:hover {
+  color: white;
+  background-color: #b94876 !important;
+}
+
+.copy-btn {
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px;
+  color: white;
+  background-color: #A460ED;
+}
+
+.copy-btn:hover {
+  background-color: #8648c7;
+
+}

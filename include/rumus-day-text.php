@@ -1,0 +1,1 @@
+<?php if ($day === "Sunday") : ?>Minggu<?php endif; ?><?php if ($day === "Monday") : ?>Senin<?php endif; ?><?php if ($day === "Tuesday") : ?>Selasa<?php endif; ?><?php if ($day === "Wednesday") : ?>Rabu<?php endif; ?><?php if ($day === "Thursday") : ?>Kamis<?php endif; ?><?php if ($day === "Friday") : ?>Jumat<?php endif; ?><?php if ($day === "Saturday") : ?>Sabtu<?php endif; ?>

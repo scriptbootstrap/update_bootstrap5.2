@@ -1,0 +1,131 @@
+/* ================================ */
+/* @ MEDIA QUERY */
+/* ================================ */
+
+/* ============= SET TABLE 768PX =============-  */
+
+/* === modal pengadaan === */
+.modal-pengadaan a {
+  display: inline-block;
+  background-color: #F675A8;
+  box-shadow: 1px 1px 10px #aaa;
+  width: 100%;
+  padding: 5px !important;
+  border-radius: 10px;
+}
+
+.modal-pengadaan a:hover {
+  background-color: #A460ED;
+  text-decoration: none;
+}
+
+.modal-pengadaan i {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.modal-pengadaan span {
+  color: white;
+}
+
+.modal-pengadaan {
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+
+/* BUTTON FORM TAHAPAN */
+@media only screen and (max-width: 768px) {
+
+  .btn-form a,
+  .btn-form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* BOTTOM MENU */
+  .modalSearch {
+    z-index: 1;
+  }
+
+  .bottom-menu {
+    z-index: 1;
+    display: block !important;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    width: 97%;
+    box-shadow: 1px 1px 5px #A460ED;
+    border-radius: 50px;
+    left: 5px;
+    right: 5px;
+    margin: auto;
+    background-color: #F675A8;
+  }
+
+  .container .col {
+    padding-top: 5px;
+  }
+
+  .container .col span {
+    color: #eee;
+  }
+
+  .bottom-menu a {
+    color: white;
+    display: block;
+  }
+
+  .bottom-menu a:hover {
+    text-decoration: none;
+  }
+
+  .container .col:hover {
+    background-color: #A460ED;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+
+  .bottom-menu i {
+    font-size: 18px;
+  }
+
+  .bottom-menu img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .bottom-menu span {
+    font-size: 13px;
+  }
+
+  /* LOGIN */
+  .bg-img {
+    background: #fff !important;
+    background-attachment: local;
+  }
+
+  .box-form-login-container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-top: -50px;
+    margin-bottom: -200px !important;
+  }
+
+  .box-form-login-container h1 {
+    font-size: 16px !important;
+  }
+
+  .box-form-login {
+    border-radius: 0px !important;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+  }
+
+
+}
